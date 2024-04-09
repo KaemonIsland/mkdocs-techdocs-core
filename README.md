@@ -9,7 +9,7 @@ This is the base [Mkdocs](https://mkdocs.org) plugin used when using Mkdocs with
 > Requires Python version >= 3.8
 
 ```bash
-$ pip install mkdocs-techdocs-core
+$ pip install mkdocs-techdocs-bandicoot
 ```
 
 Once you have installed the `mkdocs-techdocs-core` plugin, you'll need to add it to your `mkdocs.yml`.
