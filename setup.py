@@ -26,16 +26,16 @@ with open("requirements.txt") as f:
     required = f.read().splitlines()
 
 setup(
-    name="mkdocs-techdocs-core",
+    name="mkdocs-techdocs-bandicoot",
     version="1.1.7",
-    description="The core MkDocs plugin used by Backstage's TechDocs as a wrapper around "
+    description="The core MkDocs plugin used by Bandicoot's TechDocs as a wrapper around "
     "multiple MkDocs plugins and Python Markdown extensions",
     long_description=long_description,
     long_description_content_type="text/markdown",
     keywords="mkdocs",
-    url="https://github.com/backstage/mkdocs-techdocs-core",
-    author="TechDocs Core",
-    author_email="pulp-fiction@spotify.com",
+    url="https://github.com/kaemonisland/mkdocs-techdocs-core",
+    author="TechDocs Core Bandicoot",
+    author_email="kaemonlovendahl@outlook.com",
     license="Apache-2.0",
     python_requires=">=3.7",
     install_requires=required,
@@ -49,5 +49,5 @@ setup(
         "Programming Language :: Python :: 3.7",
     ],
     packages=find_packages(),
-    entry_points={"mkdocs.plugins": ["techdocs-core = src.core:TechDocsCore"]},
+    entry_points={"mkdocs.plugins": ["techdocs-bandicoot = src.core:TechDocsCore"]},
 )
