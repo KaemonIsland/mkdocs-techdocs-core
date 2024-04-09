@@ -27,7 +27,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="mkdocs-techdocs-bandicoot",
-    version="1.1.7",
+    version="1.1.8",
     description="The core MkDocs plugin used by Bandicoot's TechDocs as a wrapper around "
     "multiple MkDocs plugins and Python Markdown extensions",
     long_description=long_description,
