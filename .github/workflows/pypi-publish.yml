@@ -1,6 +1,7 @@
 name: TechDocs PyPI Publish main branch
 
 on:
+  workflow_call:
   push:
     branches: [main]
     paths:
