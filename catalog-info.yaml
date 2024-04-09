@@ -3,6 +3,5 @@ kind: Component
 metadata:
   name: mkdocs-techdocs-core
 spec:
-  lifecycle: production
-  type: backstage-common-library
-  owner: techdocs-maintainers
+  type: library
+  owner: pulp-fiction
