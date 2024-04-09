@@ -27,7 +27,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="mkdocs-techdocs-bandicoot",
-    version="1.1.8",
+    version="1.1.9",
     description="The core MkDocs plugin used by Bandicoot's TechDocs as a wrapper around "
     "multiple MkDocs plugins and Python Markdown extensions",
     long_description=long_description,
@@ -37,7 +37,7 @@ setup(
     author="TechDocs Core Bandicoot",
     author_email="kaemonlovendahl@outlook.com",
     license="Apache-2.0",
-    python_requires=">=3.7",
+    python_requires=">=3.12",
     install_requires=required,
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -46,7 +46,7 @@ setup(
         "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3 :: Only",
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.12",
     ],
     packages=find_packages(),
     entry_points={"mkdocs.plugins": ["techdocs-bandicoot = src.core:TechDocsCore"]},
