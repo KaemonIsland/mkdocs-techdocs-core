@@ -63,7 +63,7 @@ class TechDocsCore(BasePlugin):
         config["theme"].dirs.append(self.tmp_dir_techdocs_theme.name)
 
         # Plugins
-        del config["plugins"]["techdocs-core"]
+        del config["plugins"]["techdocs-bandicoot"]
 
         search_plugin = SearchPlugin()
         search_plugin.load_config({})
